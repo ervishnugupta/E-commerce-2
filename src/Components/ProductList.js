@@ -10,6 +10,7 @@ const ProductList = () => {
 //     return <h1>Loading...</h1>
 // }
 
+
   if(grid_view){
     return <GridView products ={filter_products}/>
   }

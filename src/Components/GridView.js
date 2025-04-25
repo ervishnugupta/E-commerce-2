@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import Product from './Product'
 
 const GridView = ({products}) => {
+
+  if (!products) return <div>Loading...</div>;
     
   return (
     <Wrapper className='section'>

@@ -7,7 +7,7 @@ const LoginForm = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  console.log(username, password);
+  // console.log(username, password);
   
 
   const login = (e) => {

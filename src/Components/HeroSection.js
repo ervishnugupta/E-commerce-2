@@ -12,7 +12,7 @@ const HeroSection = ({data}) => {
                 <p className='intro-data'>Welcome to</p>
                 <h1>{data}</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi minima sunt reprehenderit illo adipisci consequatur, quasi, aperiam facilis molestiae sed vel laboriosam nemo non sequi amet, tempore veritatis soluta? Eveniet!</p>
-                <NavLink >
+                <NavLink  to="/products" >
 
                     <Button>
                         Shop Now
