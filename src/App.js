@@ -46,7 +46,7 @@ const App = () => {
     <Header/>
       <Routes>
 
-        <Route path="/" element={<Protected Component={Home}/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/login" element={<LoginForm/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/products" element={<Protected Component={Products}/>}/>
